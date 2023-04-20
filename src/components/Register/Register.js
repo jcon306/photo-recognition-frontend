@@ -29,7 +29,7 @@ class Register extends React.Component {
     }
 
     onSubmitSignIn = () => {
-        fetch('https://smart-photo-backend.onrender.com/register', {
+        fetch('https://smart-photo-backend.onrender.com', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
